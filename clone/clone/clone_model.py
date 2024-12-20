@@ -15,7 +15,6 @@ class LLMClone(pl.LightningModule):
        
         self.args = args
         self._build_clone()
-        # self._build_model()
         self._build_tokenizer()
 
 
